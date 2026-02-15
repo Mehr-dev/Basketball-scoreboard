@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    background-color: navy;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: arial; sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.score {
+    font-size: 84px;
+    margin: 15px 0;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-family: "Cursed Timer ULiL", sans-serif;
+    color: red;
+    background-color: black;
+    min-width: 120px;
+}
+
+.btn {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #9AA3B2;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin: 0 3px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: navy;
+}
